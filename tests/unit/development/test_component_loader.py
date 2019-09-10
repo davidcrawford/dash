@@ -95,6 +95,19 @@ METADATA_STRING = """{
                 "required": false
             }
         }
+    },
+    "Quoted.react.js": {
+        "description": "",
+        "methods": [],
+        "props": {
+            "quoted": {
+                "type": {
+                    "name": "string"
+                },
+                "required": false,
+                "description": "a quote\\""
+            }
+        }
     }
 }"""
 METADATA = json.JSONDecoder(object_pairs_hook=collections.OrderedDict).decode(
